@@ -260,6 +260,7 @@ for year, url in reports.items():
 
 ## Collecting company data - Webscraping
 
+<img width="1135" height="892" alt="image" src="https://github.com/user-attachments/assets/bfbe9921-65c8-4fa0-b04e-1568cf88d87a" />
 
 
 
