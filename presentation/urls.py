@@ -6,3 +6,12 @@ urlpatterns = [
     path("", views.home, name="home"),
     path("do_action/", views.do_action, name="do_action"),  # view to call
 ]
+
+
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path("admin/", admin.site.urls),
+    path("", include("presentation.urls")),
+]
