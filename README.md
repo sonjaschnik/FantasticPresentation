@@ -105,6 +105,57 @@ for year, url in reports.items():
 </table>
 
 
+**Differences in ESG reports according to the industry:**
+
+<table class="ind-table">
+  <thead>
+    <tr>
+      <th style="width: 20%">Industry</th>
+      <th style="width: 45%">Key focus areas</th>
+      <th style="width: 35%">Relevant framework</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="ind-name">🛢️ Oil & Gas</span></td>
+      <td>Scope 1-3 emissions, spills, methane leaks</td>
+      <td><span class="tag tag-teal">TCFD</span><span class="tag tag-blue">SASB</span></td>
+    </tr>
+    <tr>
+      <td><span class="ind-name">🏦 Banking</span></td>
+      <td>Financed emissions, lending to fossil fuels</td>
+      <td><span class="tag tag-teal">PCAF</span><span class="tag tag-blue">TCFD</span></td>
+    </tr>
+    <tr>
+      <td><span class="ind-name">💻 Tech</span></td>
+      <td>Data privacy, energy use of data centers, supply chain labor</td>
+      <td><span class="tag tag-blue">SASB</span><span class="tag tag-purple">GRI</span></td>
+    </tr>
+    <tr>
+      <td><span class="ind-name">🚗 Automotive</span></td>
+      <td>Fleet emissions, EV transition, supply chain minerals</td>
+      <td><span class="tag tag-purple">GRI</span><span class="tag tag-teal">TCFD</span></td>
+    </tr>
+    <tr>
+      <td><span class="ind-name">👗 Fashion</span></td>
+      <td>Water use, child labor, chemical discharge</td>
+      <td><span class="tag tag-purple">GRI</span><span class="tag tag-amber">ZDHC</span></td>
+    </tr>
+    <tr>
+      <td><span class="ind-name">🌾 Food & Agriculture</span></td>
+      <td>Land use, water, pesticides, farmer welfare</td>
+      <td><span class="tag tag-purple">GRI</span><span class="tag tag-green">TNFD</span></td>
+    </tr>
+    <tr>
+      <td><span class="ind-name">🎬 Entertainment</span></td>
+      <td>Data center energy, production emissions, on-screen diversity, labor rights, content governance, data privacy</td>
+      <td><span class="tag tag-purple">GRI</span><span class="tag tag-blue">SASB</span><span class="tag tag-teal">TCFD</span><span class="tag tag-coral">PAS 2060</span></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 ## Collecting company data - Webscraping
 
 
