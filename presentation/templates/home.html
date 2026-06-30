@@ -2,9 +2,25 @@
 <html>
 <head>
     <title>Home</title>
+
+    <style>
+        /* CSS class for larger text */
+        .large-text {
+            font-size: 24px;   /* Bigger font size */
+            font-weight: bold; /* Optional: make it bold */
+            color: #222;       /* Optional: change color */
+        }
+    </style>
+
 </head>
 <body>
     <h1>Home Page</h1>
+
+    <!-- Text above the button -->
+    <p>Financial data analytics with python</p>
+    <p class="large-text">Presentation on my ESG home assignment</p>
+    <p>Katharina Meder</p>
+    <p>01.07.2026</p>
 
     <!-- Button that calls the view function -->
     <form action="{% url 'do_action' %}" method="post">
