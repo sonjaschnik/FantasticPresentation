@@ -2,7 +2,6 @@
 
 **The assignment**
 
-```mermaid
 flowchart LR
   subgraph P1["Part 1 – Data collection"]
     direction TB
@@ -19,6 +18,7 @@ flowchart LR
     C2[Student report from Part 2] --> C3
   end
   P1 --> P2 --> P3 --> D[Results & summary]
+
 
 
 **Original ESG reports - Setting up my first python script**
