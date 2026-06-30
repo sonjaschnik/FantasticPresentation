@@ -1,5 +1,7 @@
 # Presentation on the ESG home assignment
 
+Katharina Meder - 01.07.2026
+
 ## The assignment
 
 ```mermaid
