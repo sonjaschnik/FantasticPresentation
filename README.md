@@ -50,7 +50,7 @@ for year, url in reports.items():
 
 ## Results from the literature review on E, S, and G - Working with a coding agent
 
-**Key metrics of ESG reports:**
+# Key metrics of ESG reports:
 
 <table class="esg-table">
   <thead>
@@ -105,7 +105,7 @@ for year, url in reports.items():
 </table>
 
 
-**Differences in ESG reports according to the industry:**
+# Differences in ESG reports according to the industry:
 
 <table class="ind-table">
   <thead>
@@ -155,7 +155,7 @@ for year, url in reports.items():
 </table>
 
 
-**Differences in ESG reports according to the geographic region:**
+# Differences in ESG reports according to the geographic region:
 
 <div class="geo-grid">
 
