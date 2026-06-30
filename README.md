@@ -242,9 +242,9 @@ for year, url in reports.items():
 
 ### Outline of a meaningful (credible + comparable) ESG report:
 
-1. Company profile & reporting scope (business activities; reporting period and boundary; deciding for respective frameworks)
+1. Company profile & reporting scope:  business activities; reporting period and boundary; deciding for respective frameworks
 
-2. Materiality assessment (ESG topics with the greatest impact on company's long-term success and sustainability while addressing stakeholder concerns)
+2. Materiality assessment:             ESG topics with the greatest impact on company's long-term success and sustainability while addressing stakeholder concerns
 
 3. Environmental aspects (scope 1, 2, and 3 emissions with baseline year; energy consumption and renewable energy share; water use, waste, and biodiversity impact; climate targets with deadlines and interim milestones)
 
