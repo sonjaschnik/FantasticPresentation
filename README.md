@@ -1,6 +1,6 @@
 # Presentation on the ESG home assignment
 
-###The assignment###
+## The assignment
 
 ```mermaid
 flowchart LR
@@ -22,7 +22,7 @@ flowchart LR
 ```
 
 
-###Original ESG reports - Setting up my first python script###
+## Original ESG reports - Setting up my first python script
 
 **My companies:** Tesla, Volkswagen, Netflix, Disney
 
@@ -48,10 +48,10 @@ for year, url in reports.items():
 ```
 
 
-###Results from the literature review on E, S, and G - Working with a coding agent###
+## Results from the literature review on E, S, and G - Working with a coding agent
 
 
-###Collecting company data - Webscraping###
+## Collecting company data - Webscraping
 
 
 
