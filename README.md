@@ -1,7 +1,9 @@
 # Presentation on the ESG home assignment
 
 Martin-Luther-University Halle-Wittenberg
+
 Financial Data Analytics With Python
+
 Katharina Meder - 01.07.2026
 
 ## The assignment
