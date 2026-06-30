@@ -2,8 +2,10 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
+
 def home(request):
-    return render(request, 'home.html')
+    return render(request, "home.html")
+
 
 def do_action(request):
     if request.method == "POST":
@@ -11,4 +13,4 @@ def do_action(request):
         print("Button clicked! Performing action...")
         return HttpResponse("Action completed successfully!")
     else:
-        return redirect('home')  # prevent GET access
+        return redirect("home")  # prevent GET access
