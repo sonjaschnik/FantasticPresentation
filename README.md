@@ -26,7 +26,7 @@ flowchart LR
 
 **My companies:** Tesla, Volkswagen, Netflix, Disney
 
-*pdf_downloader.py*
+**The python script:** pdf_downloader.py
 
 ```python
 import requests
