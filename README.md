@@ -240,6 +240,23 @@ for year, url in reports.items():
 
 </div>
 
+### Outline of a meaningful (credible + comparable) ESG report:
+
+1. Company profile & reporting scope (business activities; reporting period and boundary; deciding for respective frameworks)
+
+2. Materiality assessment (ESG topics with the greatest impact on company's long-term success and sustainability while addressing stakeholder concerns)
+
+3. Environmental aspects (scope 1, 2, and 3 emissions with baseline year; energy consumption and renewable energy share; water use, waste, and biodiversity impact; climate targets with deadlines and interim milestones)
+
+4. Social aspects (workforce data; data on health and safety; supply chain labor standards and audit results; community engagement and investment)
+
+5. Governance aspects (board composition; executive compensation and CEO pay ratio; anti-corruption and ethics policies; data privacy and cybersecurity practices)
+
+6. Targets & progress (were previous year's targets met?; new targets for the coming year; long-term commitments)
+
+7. Data appendix (all quantitative data in one place; methodology notes explaining how metrics were calculated)
+
+
 
 ## Collecting company data - Webscraping
 
