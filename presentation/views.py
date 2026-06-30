@@ -12,7 +12,9 @@ def do_action(request):
         readme_path = os.path.join(settings.BASE_DIR, 'README.md')
         with open(readme_path, 'r', encoding='utf-8') as f:
             content = f.read()
-        html_content = markdown.markdown(content)
+        html_content = markdown.markdown(content, extensions=['fenced_code'])
+        import re
+        html_content = re.sub(r'<pre><code class="language-mermaid">(.*?)</code></pre>', r'<div class="mermaid">\1</div>', html_content, flags=re.DOTALL)
         return render(request, 'readme.html', {'readme_html': html_content})
     else:
         return redirect('home')
