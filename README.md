@@ -180,23 +180,6 @@ for year, url in reports.items():
 
   <div class="geo-card">
     <div class="geo-header">
-      <span class="geo-flag">🇬🇧</span>
-      <span class="geo-name">United Kingdom</span>
-    </div>
-    <span class="geo-badge badge-moderate">Moderately strict</span>
-    <ul class="geo-points">
-      <li>Mandatory TCFD-aligned reporting since 2022</li>
-      <li>Stricter than the US, less than the EU</li>
-      <li>Applies to large listed companies</li>
-    </ul>
-    <div class="framework-row">
-      <span class="fw-tag">TCFD</span>
-      <span class="fw-tag">GRI</span>
-    </div>
-  </div>
-
-  <div class="geo-card">
-    <div class="geo-header">
       <span class="geo-flag">🇺🇸</span>
       <span class="geo-name">United States</span>
     </div>
@@ -234,7 +217,7 @@ for year, url in reports.items():
   <div class="geo-card">
     <div class="geo-header">
       <span class="geo-flag">🌍</span>
-      <span class="geo-name">Emerging markets</span>
+      <span class="geo-name">Emerging Markets</span>
     </div>
     <span class="geo-badge badge-voluntary">Voluntary & varied</span>
     <ul class="geo-points">
@@ -250,7 +233,6 @@ for year, url in reports.items():
   </div>
 
 </div>
-
 
 
 ## Collecting company data - Webscraping
