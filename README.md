@@ -155,6 +155,103 @@ for year, url in reports.items():
 </table>
 
 
+**Differences in ESG reports according to the geographic region:**
+
+<div class="geo-grid">
+
+  <div class="geo-card">
+    <div class="geo-header">
+      <span class="geo-flag">🇪🇺</span>
+      <span class="geo-name">European Union</span>
+    </div>
+    <span class="geo-badge badge-strict">Most strict globally</span>
+    <ul class="geo-points">
+      <li>CSRD mandatory for large companies since 2024</li>
+      <li>Uses ESRS — very detailed standards</li>
+      <li>Covers non-EU companies operating in Europe</li>
+      <li>Sets the global benchmark</li>
+    </ul>
+    <div class="framework-row">
+      <span class="fw-tag">CSRD</span>
+      <span class="fw-tag">ESRS</span>
+      <span class="fw-tag">TCFD</span>
+    </div>
+  </div>
+
+  <div class="geo-card">
+    <div class="geo-header">
+      <span class="geo-flag">🇬🇧</span>
+      <span class="geo-name">United Kingdom</span>
+    </div>
+    <span class="geo-badge badge-moderate">Moderately strict</span>
+    <ul class="geo-points">
+      <li>Mandatory TCFD-aligned reporting since 2022</li>
+      <li>Stricter than the US, less than the EU</li>
+      <li>Applies to large listed companies</li>
+    </ul>
+    <div class="framework-row">
+      <span class="fw-tag">TCFD</span>
+      <span class="fw-tag">GRI</span>
+    </div>
+  </div>
+
+  <div class="geo-card">
+    <div class="geo-header">
+      <span class="geo-flag">🇺🇸</span>
+      <span class="geo-name">United States</span>
+    </div>
+    <span class="geo-badge badge-voluntary">Largely voluntary</span>
+    <ul class="geo-points">
+      <li>SEC climate disclosure rules faced legal challenges</li>
+      <li>Investor-driven — BlackRock, Vanguard push standards</li>
+      <li>Companies report selectively</li>
+      <li>No federal ESG mandate yet</li>
+    </ul>
+    <div class="framework-row">
+      <span class="fw-tag">TCFD</span>
+      <span class="fw-tag">SASB</span>
+    </div>
+  </div>
+
+  <div class="geo-card">
+    <div class="geo-header">
+      <span class="geo-flag">🇨🇳</span>
+      <span class="geo-name">China</span>
+    </div>
+    <span class="geo-badge badge-growing">Growing requirements</span>
+    <ul class="geo-points">
+      <li>Mandatory for Shanghai/Shenzhen listed companies</li>
+      <li>Strong focus on environmental metrics</li>
+      <li>Driven by carbon neutrality goals (2060)</li>
+      <li>Less emphasis on governance transparency</li>
+    </ul>
+    <div class="framework-row">
+      <span class="fw-tag">CASS-ESG</span>
+      <span class="fw-tag">GRI</span>
+    </div>
+  </div>
+
+  <div class="geo-card">
+    <div class="geo-header">
+      <span class="geo-flag">🌍</span>
+      <span class="geo-name">Emerging markets</span>
+    </div>
+    <span class="geo-badge badge-voluntary">Voluntary & varied</span>
+    <ul class="geo-points">
+      <li>Generally voluntary, no unified standard</li>
+      <li>GRI most widely adopted globally</li>
+      <li>Quality varies enormously by country</li>
+      <li>Investor pressure slowly raising the bar</li>
+    </ul>
+    <div class="framework-row">
+      <span class="fw-tag">GRI</span>
+      <span class="fw-tag">ISSB</span>
+    </div>
+  </div>
+
+</div>
+
+
 
 ## Collecting company data - Webscraping
 
