@@ -1,16 +1,19 @@
 # myapp/views.py
 from django.shortcuts import render, redirect
-from django.http import HttpResponse
-
+import markdown
+import os
+from django.conf import settings
 
 def home(request):
-    return render(request, "home.html")
-
+    return render(request, 'home.html')
 
 def do_action(request):
     if request.method == "POST":
-        # my server-side logic here
-        print("Button clicked! Performing action...")
-        return HttpResponse("Action completed successfully!")
+        readme_path = os.path.join(settings.BASE_DIR, 'README.md')
+        with open(readme_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        html_content = markdown.markdown(content)
+        return render(request, 'readme.html', {'readme_html': html_content})
     else:
-        return redirect("home")  # prevent GET access
+        return redirect('home')
+
