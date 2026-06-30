@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+
+    <!-- Button that calls the view function -->
+    <form action="{% url 'do_action' %}" method="post">
+        {% csrf_token %}
+        <button type="submit">Let's go!</button>
+    </form>
+</body>
+</html>
