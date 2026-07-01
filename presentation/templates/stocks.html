@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Charts</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: sans-serif; max-width: 900px; margin: 0 auto; padding: 20px 40px; }
+        .chart-container { margin-bottom: 60px; }
+        canvas { width: 100%; }
+    </style>
+</head>
+<body>
+    <h1>Stock Market Data</h1>
+    <p>Last 6 months — live data</p>
+
+    {% for company, data in stock_data.items %}
+    <div class="chart-container">
+        <h2>{{ company }}</h2>
+        <canvas id="chart-{{ forloop.counter }}"></canvas>
+        <script>
+            new Chart(document.getElementById('chart-{{ forloop.counter }}'), {
+                type: 'line',
+                data: {
+                    labels: {{ data.dates|safe }},
+                    datasets: [{
+                        label: '{{ company }} closing price',
+                        data: {{ data.prices|safe }},
+                        borderColor: 'rgb(75, 192, 192)',
+                        tension: 0.1,
+                        pointRadius: 0,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: { legend: { display: false } },
+                    scales: { x: { ticks: { maxTicksLimit: 8 } } }
+                }
+            });
+        </script>
+    </div>
+    {% endfor %}
+
+    <p><a href="{% url 'readme' %}">Continue to README →</a></p>
+    <p><a href="{% url 'home' %}">← Back to Home</a></p>
+</body>
+</html>
