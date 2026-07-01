@@ -24,12 +24,12 @@
     <p>Financial Data Analytics With Python</p>
     <p>Katharina Meder - 01.07.2026</p>
     
-    <h3>Stock Market Data</h3>
+    <h2>Stock Market Data</h2>
     <p>Last 6 months — live data</p>
 
     {% for company, data in stock_data.items %}
     <div class="chart-container">
-        <h2>{{ company }}</h2>
+        <h3>{{ company }}</h3>
         <canvas id="chart-{{ forloop.counter }}"></canvas>
         <script>
             new Chart(document.getElementById('chart-{{ forloop.counter }}'), {
