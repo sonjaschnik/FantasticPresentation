@@ -11,21 +11,7 @@ def home(request):
 
 def do_action(request):
     if request.method == "POST":
-        tickers = {
-            'Tesla': 'TSLA',
-            'Volkswagen': 'VOW3.DE',
-            'Netflix': 'NFLX',
-            'Disney': 'DIS',
-        }
-        stock_data = {}
-        for name, symbol in tickers.items():
-            ticker = yf.Ticker(symbol)
-            hist = ticker.history(period='6mo')
-            stock_data[name] = {
-                'dates': hist.index.strftime('%Y-%m-%d').tolist(),
-                'prices': hist['Close'].tolist(),
-            }
-        return render(request, 'stocks.html', {'stock_data': stock_data})
+        return redirect('stocks')
     else:
         return redirect('home')
 
