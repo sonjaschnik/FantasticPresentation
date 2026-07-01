@@ -18,7 +18,7 @@ def do_action(request):
 def stocks(request):
     tickers = {
         'Tesla': 'TSLA',
-        'Volkswagen': 'VOW3.DE',
+        'Volkswagen': 'VWAGY',
         'Netflix': 'NFLX',
         'Disney': 'DIS',
     }
